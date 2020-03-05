@@ -19,8 +19,8 @@ code {
   max-height: 440px;
 } */
 
-@media only screen and (max-width: 600px) {
-  #sider {
+@media only screen and (max-width: 300px) {
+  #header {
     display: none;
   }
 }
@@ -34,7 +34,30 @@ img {
   height: 50px;
 }
 
-#content1,
-#content2,
-#content3 {
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  color: white;
+}
+
+#submenu {
+  margin: 10px;
+}
+#submenu:hover {
+  font-weight: bold;
+  cursor: pointer;
 }

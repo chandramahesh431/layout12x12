@@ -13,7 +13,7 @@ function App() {
           id="header"
           className="col"
           style={{
-            background: "#FFFACD",
+            background: "#DCDCDC",
             height: "100px",
             textAlign: "center",
             verticalAlign: "center"
@@ -22,17 +22,27 @@ function App() {
           <h4>Cytel</h4>
         </div>
       </div>
-      <div id="Content" className="row" style={{ minHeight: "440px" }}>
+      <div id="Content" className="row" style={{ minHeight: "420px" }}>
         <div
           id="sider"
           className="col-xl-2 col-lg-2 col-md-2 col-sm-12"
           style={{ background: "#B0C4DE" }}
         >
-          Sider
+          <div className="row">
+            <div id="submenu" className="col-sm-1 col-md-12">
+              Home
+            </div>
+            <div id="submenu" className="col-sm-1 col-md-12">
+              About
+            </div>
+            <div id="submenu" className="col-sm-1 col-md-12">
+              Contact
+            </div>
+          </div>
         </div>
         <div
           className="col-xl-10 col-lg-10 col-md-10 col-sm-12"
-          style={{ background: "#E6E6FA", alignContent: "center" }}
+          style={{ background: "#708090", alignContent: "center" }}
         >
           <div
             className="row"
