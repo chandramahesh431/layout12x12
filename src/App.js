@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import ava1 from "../src/assets/download.png";
-import ava2 from "../src/assets/images.jfif";
-import ava3 from "../src/assets/images.png";
+import ava1 from "../src/assets/download (7).jfif";
+import ava2 from "../src/assets/download (8).jfif";
+import ava3 from "../src/assets/images (1).jfif";
 
 function App() {
   return (
