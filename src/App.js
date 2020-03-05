@@ -42,7 +42,11 @@ function App() {
         </div>
         <div
           className="col-xl-10 col-lg-10 col-md-10 col-sm-12"
-          style={{ background: "#708090", alignContent: "center" }}
+          style={{
+            background: "#708090",
+            alignContent: "center",
+            paddingLeft: "50px"
+          }}
         >
           <div
             className="row"
