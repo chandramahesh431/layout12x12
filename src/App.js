@@ -32,9 +32,44 @@ function App() {
         </div>
         <div
           className="col-xl-10 col-lg-10 col-md-10 col-sm-12"
-          style={{ background: "#E6E6FA" }}
+          style={{ background: "#E6E6FA", alignContent: "center" }}
         >
-          Content
+          <div
+            className="row"
+            style={{ padding: "5px", height: "100%", width: "100%" }}
+          >
+            <div
+              id="content1"
+              className="col-xl-4 col-lg-4 col-md-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded"
+            >
+              <h5>Who We Are</h5> The clinical development of drugs and devices
+              is crucial for human welfare. Our mission is to improve success
+              rates in this endeavor. We do this by improving the design and
+              implementation of clinical trials through the innovative
+              application of statistical science, operations research, and
+              information technology.
+            </div>
+            <div
+              id="content2"
+              className="col-xl-4 col-lg-4 col-md-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded"
+            >
+              <h5>What We Do</h5> We provide unrivaled biostatistics and
+              operations research knowledge to our customers. Our knowledge is
+              available in the form of both software and services. This
+              knowledge, supported by our trial implementation capabilities, is
+              what makes us different. We are leaders in the design and
+              implementation of adaptive clinical trials.
+            </div>
+            <div
+              id="content3"
+              className="col-xl-4 col-lg-4 col-md-4 col-sm-12 shadow-lg p-3 mb-5 bg-white rounded"
+            >
+              <h5>Our Values and Beliefs</h5> We value excellence in
+              implementation, with an emphasis on obtaining the maximum useful
+              information for the money spent and enabling the best decisions to
+              be made about the candidate drug or device.
+            </div>
+          </div>
         </div>
       </div>
       <div className="row">

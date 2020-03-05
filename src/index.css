@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,16 +15,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-#Content {
+/* #Content {
   max-height: 440px;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   #sider {
     display: none;
-  }
-  #Content {
-    max-height: 100px;
   }
 }
 .container {
@@ -31,4 +32,9 @@ code {
 img {
   border-radius: 50%;
   height: 50px;
+}
+
+#content1,
+#content2,
+#content3 {
 }
