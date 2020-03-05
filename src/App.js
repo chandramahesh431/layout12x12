@@ -22,7 +22,7 @@ function App() {
           <h4>Cytel</h4>
         </div>
       </div>
-      <div id="Content" className="row" style={{ minHeight: "420px" }}>
+      <div id="Content" className="row" style={{ minHeight: "440px" }}>
         <div
           id="sider"
           className="col-xl-2 col-lg-2 col-md-2 col-sm-12"
