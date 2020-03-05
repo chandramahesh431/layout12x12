@@ -61,3 +61,11 @@ img {
   font-weight: bold;
   cursor: pointer;
 }
+
+#content1,
+#content2,
+#content3 {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 50px;
+}
