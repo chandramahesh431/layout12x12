@@ -69,3 +69,8 @@ img {
   padding: 20px;
   border-radius: 50px;
 }
+
+#lang {
+  position: relative;
+  float: right;
+}
